@@ -1,6 +1,9 @@
 body {
   color: #212121;
 }
+ul {
+  list-style: none;
+}
 
 /* цвет основного текста background: #212121 
 */
@@ -19,4 +22,15 @@ body {
 }
 .logo-part {
   color: #212121;
+}
+/* sait nav */
+.sait-nav a {
+  color: #212121;
+}
+.sait-nav a:hover,
+.sait-nav a:focus {
+  color: #2196f3;
+}
+.section-title {
+  color: #757575;
 }
