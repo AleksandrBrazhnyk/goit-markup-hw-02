@@ -3,6 +3,10 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --hero-text-color: #ffffff;
+  --portfolio-bg-buttons: #f5f4fa;
+  --hero-footer-bg: #2f303a;
+  --contact-link-footer: rgba(255, 255, 255, 0.6);
+  --general-bg: #e5e5e5;
 }
 
 body {
@@ -24,6 +28,9 @@ ul {
 /* цвет фона наша команда #F5F4FA */
 
 /* шапка */
+.top-line {
+  background-color: var(--hero-text-color);
+}
 .logo {
   color: var(--accent-color);
 }
@@ -31,17 +38,68 @@ ul {
   color: var(--primary-text-color);
 }
 /* hero */
+.hero-bg,
+.footer-bg {
+  background-color: var(--hero-footer-bg);
+}
+
 .hero-title {
   color: var(--hero-text-color);
 }
+/* general bg */
+.especialli-bg,
+.work-bg,
+.portfolio-bg {
+  background-color: var(--general-bg);
+}
+
 /* site nav */
-.site-nav a {
+.site-nav .link {
   color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
 }
-.section-title {
+.site .link .section-title {
   color: var(--title-text-color);
+}
+/* contacts nav */
+.contacts-nav .link {
+  color: var(--title-text-color);
+}
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+  color: var(--accent-color);
+}
+/* button */
+.button {
+  color: var(--accent-color);
+}
+.studio-button {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+.portfolio-button a {
+  color: var(--primary-text-color);
+  background-color: var(--portfolio-bg-buttons);
+}
+.portfolio-button a:hover,
+.portfolio-button a:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+/* footer */
+.address-text {
+  color: var(--hero-text-color);
+}
+.logo-footer {
+  color: var(--hero-text-color);
+}
+.contacts-nav .link.footer {
+  color: var(--contact-link-footer);
 }
