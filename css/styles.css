@@ -11,7 +11,11 @@
 
 body {
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
+
 ul {
   list-style: none;
 }
@@ -33,7 +37,12 @@ ul {
 }
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, regular;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
+
 .logo-part {
   color: var(--primary-text-color);
 }
@@ -45,6 +54,12 @@ ul {
 
 .hero-title {
   color: var(--hero-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* general bg */
 .especialli-bg,
@@ -56,6 +71,11 @@ ul {
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -86,13 +106,21 @@ ul {
 .studio-button {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 8;
+  letter-spacing: 0.06em;
 }
-.portfolio-button a {
+.portfolio-button button {
   color: var(--primary-text-color);
   background-color: var(--portfolio-bg-buttons);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 6;
+  letter-spacing: 0.03em;
 }
-.portfolio-button a:hover,
-.portfolio-button a:focus {
+.portfolio-button button:hover,
+.portfolio-button button:focus {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
