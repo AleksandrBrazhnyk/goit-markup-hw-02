@@ -1,5 +1,12 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
+}
+
 body {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 ul {
   list-style: none;
@@ -18,19 +25,23 @@ ul {
 
 /* шапка */
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-part {
-  color: #212121;
+  color: var(--primary-text-color);
 }
-/* sait nav */
-.sait-nav a {
-  color: #212121;
+/* hero */
+.hero-title {
+  color: var(--hero-text-color);
 }
-.sait-nav a:hover,
-.sait-nav a:focus {
-  color: #2196f3;
+/* site nav */
+.site-nav a {
+  color: var(--primary-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
 }
 .section-title {
-  color: #757575;
+  color: var(--title-text-color);
 }
