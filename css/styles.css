@@ -65,7 +65,10 @@ ul {
 .site-nav a:focus {
   color: var(--accent-color);
 }
-.site .link .section-title {
+.section {
+  color: var(--primary-text-color);
+}
+.section-title {
   color: var(--title-text-color);
 }
 /* contacts nav */
