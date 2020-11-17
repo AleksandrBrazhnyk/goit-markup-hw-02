@@ -134,14 +134,14 @@ ul {
 
 /* особенности */
 /* general bg */
-.especialli-bg,
+.especially-bg,
 .work-bg,
 .portfolio-bg {
   background-color: var(--general-bg);
 }
-/* чем мы занимаемся */
-
-/* наша команда + портфолио */
+.team-bg {
+  background-color: var(--portfolio-bg-buttons);
+}
 
 /* button */
 .button {
