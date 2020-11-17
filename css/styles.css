@@ -61,13 +61,6 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
-/* general bg */
-.especialli-bg,
-.work-bg,
-.portfolio-bg {
-  background-color: var(--general-bg);
-}
-
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
@@ -99,6 +92,18 @@ ul {
 .contacts-nav a:focus {
   color: var(--accent-color);
 }
+
+/* особенности */
+/* general bg */
+.especialli-bg,
+.work-bg,
+.portfolio-bg {
+  background-color: var(--general-bg);
+}
+/* чем мы занимаемся */
+
+/* наша команда + портфолио */
+
 /* button */
 .button {
   color: var(--accent-color);
