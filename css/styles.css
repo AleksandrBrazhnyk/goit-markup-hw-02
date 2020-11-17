@@ -134,9 +134,10 @@ ul {
 
 /* особенности */
 /* general bg */
-.especially-bg,
+
 .work-bg,
-.portfolio-bg {
+.portfolio-bg,
+.especially-bg {
   background-color: var(--general-bg);
 }
 .team-bg {
