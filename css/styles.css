@@ -11,13 +11,17 @@
 
 body {
   color: var(--primary-text-color);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
 ul {
   list-style: none;
+}
+a,
+.logo,
+.link {
+  text-decoration: none;
 }
 
 /* цвет основного текста background: #212121 
@@ -39,7 +43,7 @@ ul {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -56,7 +60,7 @@ ul {
   color: var(--hero-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -66,7 +70,7 @@ ul {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -82,7 +86,7 @@ ul {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .section-title {
@@ -90,28 +94,39 @@ ul {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.work-section,
 .product-section {
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+}
+
+.work-section {
   color: var(--primary-text-color);
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .team-section {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .team-title {
+  color: var(--title-text-color);
+
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .product-title {
@@ -119,7 +134,7 @@ ul {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 8;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
 
@@ -153,7 +168,7 @@ ul {
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 8;
+  line-height: 1.8;
   letter-spacing: 0.06em;
 }
 .portfolio-button button {
@@ -161,7 +176,7 @@ ul {
   background-color: var(--portfolio-bg-buttons);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 6;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .portfolio-button button:hover,
