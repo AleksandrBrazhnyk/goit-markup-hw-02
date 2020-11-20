@@ -192,8 +192,8 @@ a,
   color: var(--hero-text-color);
   font-style: normal;
   font-weight: 400;
-  font-size: 1.71;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .logo-footer {
   color: var(--hero-text-color);
